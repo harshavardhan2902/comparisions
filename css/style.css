@@ -1,0 +1,40 @@
+html,body, .container{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex: 1 10%;
+    justify-content: flex-end;
+}
+.btns{
+    padding: 20px;
+    margin: 10px;    
+}
+#test{
+    background-color: #3CB46E;
+}
+ 
+
+.section{
+    display: flex;
+    flex: 1 80%;  
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    flex: 1 10%;
+    justify-content: flex-end;
+}
+#footerbtns{
+    padding: 20px;
+    align-content: center;
+}
